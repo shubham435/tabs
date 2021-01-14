@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f2fd;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.heading{
+    text-align: center;
+    margin-top: 7rem;
+}
+.heading p{
+    font-size: 1.3rem;
+    color: gray;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+.text{
+    margin-left: 1rem;
+    margin-top: 11.5rem;
+}
+.tabs{
+    display: flex;
+    margin-top: -9.5rem;
+    background-color: rgb(230, 210, 210);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.tabs p{
+    padding: 1.5rem 4rem;
+    cursor: pointer;
+    letter-spacing: 0.2rem;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.tabs p:hover{
+    color: blue;
+    background-color: skyblue;
+}
+.tabs-text{
+    background-color: white;
+    width: 36.4rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    line-height: 1.3rem;
+}
+.tabs-text p{
+    font-size: 1.1rem;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    letter-spacing: 0.1rem;
+    color: gray;
+}
+.head{
+    color: black !important;
+}
+.vision{
+    display: none;
+}
+.goals{
+    display: none;
+    margin-top: -1.5rem;
+}
+ul{
+    padding-left: 1.5rem;
+    color: gray;
+    display: none;
+}
+@media screen and (max-width: 630px) and (min-width: 565px){
+   .text{
+       margin-left: -1rem;
+       width: 30rem;
+    }
+    .tabs p{
+        padding: 1rem 3rem;
+    } 
+    .tabs-text{
+        width: 30rem;
+    }
+} 
+@media screen and (max-width: 565px) and (min-width: 500px){
+   .text{
+       margin-left: -1rem;
+       width: 26rem;
+    }
+    .tabs p{
+        padding: 1rem 2.2rem;
+    } 
+    .tabs-text{
+        width: 26rem;
+    }
+} 
+
+@media screen and (max-width: 500px) and (min-width: 405px){
+   .text{
+       margin-left: -1rem;
+       width: 22rem;
+    }
+    .tabs p{
+        padding: 1rem 1.5rem;
+    } 
+    .tabs-text{
+        width: 22rem;
+    }
+} 
+@media screen and (max-width: 405px) {
+   .text{
+       margin-left: -1rem;
+       width: 19rem;
+    }
+    .tabs p{
+        padding: 1rem 1.2rem;
+    } 
+    .tabs-text{
+        width: 19rem;
+    }
+} 
